@@ -1,0 +1,313 @@
+
+DISPLAY7SEG.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000000a  00800100  000001c0  00000254  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000001c0  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000001  0080010a  0080010a  0000025e  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  0000025e  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000290  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000050  00000000  00000000  000002d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000009e2  00000000  00000000  00000320  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 000008c3  00000000  00000000  00000d02  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   0000044b  00000000  00000000  000015c5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000068  00000000  00000000  00001a10  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000492  00000000  00000000  00001a78  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000069  00000000  00000000  00001f0a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000030  00000000  00000000  00001f73  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	60 c0       	rjmp	.+192    	; 0xc6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	5e c0       	rjmp	.+188    	; 0xc6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	5c c0       	rjmp	.+184    	; 0xc6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	5a c0       	rjmp	.+180    	; 0xc6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	58 c0       	rjmp	.+176    	; 0xc6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	56 c0       	rjmp	.+172    	; 0xc6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	54 c0       	rjmp	.+168    	; 0xc6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	52 c0       	rjmp	.+164    	; 0xc6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	50 c0       	rjmp	.+160    	; 0xc6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	4e c0       	rjmp	.+156    	; 0xc6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	4c c0       	rjmp	.+152    	; 0xc6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	4a c0       	rjmp	.+148    	; 0xc6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	48 c0       	rjmp	.+144    	; 0xc6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	46 c0       	rjmp	.+140    	; 0xc6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	44 c0       	rjmp	.+136    	; 0xc6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	42 c0       	rjmp	.+132    	; 0xc6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	40 c0       	rjmp	.+128    	; 0xc6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	3e c0       	rjmp	.+124    	; 0xc6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	3c c0       	rjmp	.+120    	; 0xc6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	3a c0       	rjmp	.+116    	; 0xc6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	38 c0       	rjmp	.+112    	; 0xc6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	36 c0       	rjmp	.+108    	; 0xc6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	34 c0       	rjmp	.+104    	; 0xc6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	32 c0       	rjmp	.+100    	; 0xc6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	30 c0       	rjmp	.+96     	; 0xc6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	2e c0       	rjmp	.+92     	; 0xc6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	2c c0       	rjmp	.+88     	; 0xc6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	2a c0       	rjmp	.+84     	; 0xc6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	28 c0       	rjmp	.+80     	; 0xc6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	26 c0       	rjmp	.+76     	; 0xc6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	24 c0       	rjmp	.+72     	; 0xc6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	22 c0       	rjmp	.+68     	; 0xc6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	20 c0       	rjmp	.+64     	; 0xc6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	1e c0       	rjmp	.+60     	; 0xc6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e4       	ldi	r29, 0x40	; 64
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	e0 ec       	ldi	r30, 0xC0	; 192
+  a0:	f1 e0       	ldi	r31, 0x01	; 1
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	aa 30       	cpi	r26, 0x0A	; 10
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+
+000000b2 <__do_clear_bss>:
+  b2:	21 e0       	ldi	r18, 0x01	; 1
+  b4:	aa e0       	ldi	r26, 0x0A	; 10
+  b6:	b1 e0       	ldi	r27, 0x01	; 1
+  b8:	01 c0       	rjmp	.+2      	; 0xbc <.do_clear_bss_start>
+
+000000ba <.do_clear_bss_loop>:
+  ba:	1d 92       	st	X+, r1
+
+000000bc <.do_clear_bss_start>:
+  bc:	ab 30       	cpi	r26, 0x0B	; 11
+  be:	b2 07       	cpc	r27, r18
+  c0:	e1 f7       	brne	.-8      	; 0xba <.do_clear_bss_loop>
+  c2:	02 d0       	rcall	.+4      	; 0xc8 <main>
+  c4:	7b c0       	rjmp	.+246    	; 0x1bc <_exit>
+
+000000c6 <__bad_interrupt>:
+  c6:	9c cf       	rjmp	.-200    	; 0x0 <__vectors>
+
+000000c8 <main>:
+char contador=0;
+
+int main(void)
+{
+  
+	SevenSeg_Init();
+  c8:	18 d0       	rcall	.+48     	; 0xfa <SevenSeg_Init>
+	
+    while (1) 
+    {
+			SevenSeg_DisplayACValue(contador);
+  ca:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <__data_end>
+  ce:	19 d0       	rcall	.+50     	; 0x102 <SevenSeg_DisplayACValue>
+			contador++;
+  d0:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <__data_end>
+  d4:	8f 5f       	subi	r24, 0xFF	; 255
+  d6:	80 93 0a 01 	sts	0x010A, r24	; 0x80010a <__data_end>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  da:	2f e7       	ldi	r18, 0x7F	; 127
+  dc:	84 e8       	ldi	r24, 0x84	; 132
+  de:	9e e1       	ldi	r25, 0x1E	; 30
+  e0:	21 50       	subi	r18, 0x01	; 1
+  e2:	80 40       	sbci	r24, 0x00	; 0
+  e4:	90 40       	sbci	r25, 0x00	; 0
+  e6:	e1 f7       	brne	.-8      	; 0xe0 <main+0x18>
+  e8:	00 c0       	rjmp	.+0      	; 0xea <main+0x22>
+  ea:	00 00       	nop
+			_delay_ms(500);
+			if(contador>9) contador=0;
+  ec:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <__data_end>
+  f0:	8a 30       	cpi	r24, 0x0A	; 10
+  f2:	58 f3       	brcs	.-42     	; 0xca <main+0x2>
+  f4:	10 92 0a 01 	sts	0x010A, r1	; 0x80010a <__data_end>
+  f8:	e8 cf       	rjmp	.-48     	; 0xca <main+0x2>
+
+000000fa <SevenSeg_Init>:
+				   (1<<SEGE)|
+				   (1<<SEGF)|
+				   (1<<SEGG);
+}
+
+void SevenSeg_DisplayCCValue(char val){
+  fa:	81 b1       	in	r24, 0x01	; 1
+  fc:	8f 67       	ori	r24, 0x7F	; 127
+  fe:	81 b9       	out	0x01, r24	; 1
+ 100:	08 95       	ret
+
+00000102 <SevenSeg_DisplayACValue>:
+	
+}
+
+void SevenSeg_DisplayACValue(char val){
+	
+	if( (decoAC[val] & 1  ) != 0) DISPLAYPORT |= (1<<SEGA); else DISPLAYPORT &= ~(1<<SEGA);
+ 102:	90 e0       	ldi	r25, 0x00	; 0
+ 104:	fc 01       	movw	r30, r24
+ 106:	e0 50       	subi	r30, 0x00	; 0
+ 108:	ff 4f       	sbci	r31, 0xFF	; 255
+ 10a:	20 81       	ld	r18, Z
+ 10c:	20 ff       	sbrs	r18, 0
+ 10e:	04 c0       	rjmp	.+8      	; 0x118 <SevenSeg_DisplayACValue+0x16>
+ 110:	22 b1       	in	r18, 0x02	; 2
+ 112:	21 60       	ori	r18, 0x01	; 1
+ 114:	22 b9       	out	0x02, r18	; 2
+ 116:	03 c0       	rjmp	.+6      	; 0x11e <SevenSeg_DisplayACValue+0x1c>
+ 118:	22 b1       	in	r18, 0x02	; 2
+ 11a:	2e 7f       	andi	r18, 0xFE	; 254
+ 11c:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 2  ) != 0) DISPLAYPORT |= (1<<SEGB); else DISPLAYPORT &= ~(1<<SEGB);
+ 11e:	fc 01       	movw	r30, r24
+ 120:	e0 50       	subi	r30, 0x00	; 0
+ 122:	ff 4f       	sbci	r31, 0xFF	; 255
+ 124:	20 81       	ld	r18, Z
+ 126:	21 ff       	sbrs	r18, 1
+ 128:	04 c0       	rjmp	.+8      	; 0x132 <SevenSeg_DisplayACValue+0x30>
+ 12a:	22 b1       	in	r18, 0x02	; 2
+ 12c:	22 60       	ori	r18, 0x02	; 2
+ 12e:	22 b9       	out	0x02, r18	; 2
+ 130:	03 c0       	rjmp	.+6      	; 0x138 <SevenSeg_DisplayACValue+0x36>
+ 132:	22 b1       	in	r18, 0x02	; 2
+ 134:	2d 7f       	andi	r18, 0xFD	; 253
+ 136:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 4  ) != 0) DISPLAYPORT |= (1<<SEGC); else DISPLAYPORT &= ~(1<<SEGC);
+ 138:	fc 01       	movw	r30, r24
+ 13a:	e0 50       	subi	r30, 0x00	; 0
+ 13c:	ff 4f       	sbci	r31, 0xFF	; 255
+ 13e:	20 81       	ld	r18, Z
+ 140:	22 ff       	sbrs	r18, 2
+ 142:	04 c0       	rjmp	.+8      	; 0x14c <SevenSeg_DisplayACValue+0x4a>
+ 144:	22 b1       	in	r18, 0x02	; 2
+ 146:	24 60       	ori	r18, 0x04	; 4
+ 148:	22 b9       	out	0x02, r18	; 2
+ 14a:	03 c0       	rjmp	.+6      	; 0x152 <SevenSeg_DisplayACValue+0x50>
+ 14c:	22 b1       	in	r18, 0x02	; 2
+ 14e:	2b 7f       	andi	r18, 0xFB	; 251
+ 150:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 8  ) != 0) DISPLAYPORT |= (1<<SEGD); else DISPLAYPORT &= ~(1<<SEGD);
+ 152:	fc 01       	movw	r30, r24
+ 154:	e0 50       	subi	r30, 0x00	; 0
+ 156:	ff 4f       	sbci	r31, 0xFF	; 255
+ 158:	20 81       	ld	r18, Z
+ 15a:	23 ff       	sbrs	r18, 3
+ 15c:	04 c0       	rjmp	.+8      	; 0x166 <SevenSeg_DisplayACValue+0x64>
+ 15e:	22 b1       	in	r18, 0x02	; 2
+ 160:	28 60       	ori	r18, 0x08	; 8
+ 162:	22 b9       	out	0x02, r18	; 2
+ 164:	03 c0       	rjmp	.+6      	; 0x16c <SevenSeg_DisplayACValue+0x6a>
+ 166:	22 b1       	in	r18, 0x02	; 2
+ 168:	27 7f       	andi	r18, 0xF7	; 247
+ 16a:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 16 ) != 0) DISPLAYPORT |= (1<<SEGE); else DISPLAYPORT &= ~(1<<SEGE);
+ 16c:	fc 01       	movw	r30, r24
+ 16e:	e0 50       	subi	r30, 0x00	; 0
+ 170:	ff 4f       	sbci	r31, 0xFF	; 255
+ 172:	20 81       	ld	r18, Z
+ 174:	24 ff       	sbrs	r18, 4
+ 176:	04 c0       	rjmp	.+8      	; 0x180 <SevenSeg_DisplayACValue+0x7e>
+ 178:	22 b1       	in	r18, 0x02	; 2
+ 17a:	20 61       	ori	r18, 0x10	; 16
+ 17c:	22 b9       	out	0x02, r18	; 2
+ 17e:	03 c0       	rjmp	.+6      	; 0x186 <SevenSeg_DisplayACValue+0x84>
+ 180:	22 b1       	in	r18, 0x02	; 2
+ 182:	2f 7e       	andi	r18, 0xEF	; 239
+ 184:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 32 ) != 0) DISPLAYPORT |= (1<<SEGF); else DISPLAYPORT &= ~(1<<SEGF);
+ 186:	fc 01       	movw	r30, r24
+ 188:	e0 50       	subi	r30, 0x00	; 0
+ 18a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 18c:	20 81       	ld	r18, Z
+ 18e:	25 ff       	sbrs	r18, 5
+ 190:	04 c0       	rjmp	.+8      	; 0x19a <SevenSeg_DisplayACValue+0x98>
+ 192:	22 b1       	in	r18, 0x02	; 2
+ 194:	20 62       	ori	r18, 0x20	; 32
+ 196:	22 b9       	out	0x02, r18	; 2
+ 198:	03 c0       	rjmp	.+6      	; 0x1a0 <SevenSeg_DisplayACValue+0x9e>
+ 19a:	22 b1       	in	r18, 0x02	; 2
+ 19c:	2f 7d       	andi	r18, 0xDF	; 223
+ 19e:	22 b9       	out	0x02, r18	; 2
+	if( (decoAC[val] & 64 ) != 0) DISPLAYPORT |= (1<<SEGG); else DISPLAYPORT &= ~(1<<SEGG);
+ 1a0:	fc 01       	movw	r30, r24
+ 1a2:	e0 50       	subi	r30, 0x00	; 0
+ 1a4:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1a6:	80 81       	ld	r24, Z
+ 1a8:	86 ff       	sbrs	r24, 6
+ 1aa:	04 c0       	rjmp	.+8      	; 0x1b4 <SevenSeg_DisplayACValue+0xb2>
+ 1ac:	82 b1       	in	r24, 0x02	; 2
+ 1ae:	80 64       	ori	r24, 0x40	; 64
+ 1b0:	82 b9       	out	0x02, r24	; 2
+ 1b2:	08 95       	ret
+ 1b4:	82 b1       	in	r24, 0x02	; 2
+ 1b6:	8f 7b       	andi	r24, 0xBF	; 191
+ 1b8:	82 b9       	out	0x02, r24	; 2
+ 1ba:	08 95       	ret
+
+000001bc <_exit>:
+ 1bc:	f8 94       	cli
+
+000001be <__stop_program>:
+ 1be:	ff cf       	rjmp	.-2      	; 0x1be <__stop_program>

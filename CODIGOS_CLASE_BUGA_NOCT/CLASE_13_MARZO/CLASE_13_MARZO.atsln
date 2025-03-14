@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "DISPLAY7SEG", "DISPLAY7SEG\DISPLAY7SEG.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MUTIPLEX", "MUTIPLEX\MUTIPLEX.cproj", "{BDB08EB5-B7D8-4E2B-8AAC-2A65278B9EAF}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CONTADOR_MULTIPLEX", "CONTADOR_MULTIPLEX\CONTADOR_MULTIPLEX.cproj", "{41EBF6E9-8389-422B-A32F-6C116219DD26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{BDB08EB5-B7D8-4E2B-8AAC-2A65278B9EAF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BDB08EB5-B7D8-4E2B-8AAC-2A65278B9EAF}.Debug|AVR.Build.0 = Debug|AVR
+		{BDB08EB5-B7D8-4E2B-8AAC-2A65278B9EAF}.Release|AVR.ActiveCfg = Release|AVR
+		{BDB08EB5-B7D8-4E2B-8AAC-2A65278B9EAF}.Release|AVR.Build.0 = Release|AVR
+		{41EBF6E9-8389-422B-A32F-6C116219DD26}.Debug|AVR.ActiveCfg = Debug|AVR
+		{41EBF6E9-8389-422B-A32F-6C116219DD26}.Debug|AVR.Build.0 = Debug|AVR
+		{41EBF6E9-8389-422B-A32F-6C116219DD26}.Release|AVR.ActiveCfg = Release|AVR
+		{41EBF6E9-8389-422B-A32F-6C116219DD26}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
