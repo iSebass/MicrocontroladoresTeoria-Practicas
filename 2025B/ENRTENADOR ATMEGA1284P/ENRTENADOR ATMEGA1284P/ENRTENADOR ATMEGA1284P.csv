@@ -1,18 +1,18 @@
 N0,COMPONENTE,REFERENCIA,CANT,URL
-1,CONECTOR USB C,USB_C_Receptacle_XKB_U262-16XN-4BVC11,10,https://www.lcsc.com/product-detail/C720549.html?s_z=n_OST%2520USB-B
-2,MODULO FTDI CH340C,SOIC-16_3.9x9.9mm_P1.27mm,10,https://www.lcsc.com/product-detail/C84681.html?s_z=n_CH340C
-4,RESISTOR 1K,HUELLA 0805,200,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0805FR-071KL_C95781.html?s_z=n_resistior%201K%200805
-5,RESISTOR 4.7K,HUELLA 0805,200,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FH-Guangdong-Fenghua-Advanced-Tech-RS-05K472JT_C115310.html?s_z=n_resistior%204.7K%200805
-6,RESISTOR 10K,HUELLA 0805,200,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html?s_z=n_resistior%2010K%200805
-7,CAPACITOR 10uF,HUELLA 0805,200,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samwha-Capacitor-CS2012X7R106M100NRE_C5189822.html?s_z=n_Capacitor%2010uF%200805
-8,CAPACITOR 100nF,HUELLA 0805,200,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0805KRX7R9BB104_C49678.html?s_z=n_Capacitor%20100nF%200805
-9,CAPACITOR 22pF,HUELLA 0805,200,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805COG220J500BT_C376875.html?s_z=n_Capacitor%2022pF%200805
-10,DIODO LED ROJO,HUELLA 0805,200,https://www.lcsc.com/product-detail/LED-Indication-Discrete_XINGLIGHT-XL-2012SURC_C965812.html?s_z=n_LED%20RED%200805
-11,DIODO LED VERDE,HUELLA 0805,200,https://www.lcsc.com/product-detail/LED-Indication-Discrete_TOGIALED-TJ-S2012CY8T5ALC7K-A5_C601703.html?s_z=n_LED%20GREEN%200805
-12,DIODO AMARILLO,HUELLA 0805,200,https://www.lcsc.com/product-detail/LED-Indication-Discrete_HONGLITRONIC-Hongli-Zhihui-HONGLITRONIC-HL-PSC-2012H233W-8000-12000K_C219230.html?s_z=n_YELLOW%20LED%20%200805
-13,DIODO AZUL,HUELLA 0805,200,https://www.lcsc.com/product-detail/LED-Indication-Discrete_TOGIALED-TJ-S2012SW8TGLC6B-A5_C192320.html?s_z=n_LED%20%200805
-14,DIODO PROTECCION RELE,SMD:D_SMA  1000V 1A,20,https://www.lcsc.com/product-detail/Fast-Recovery-High-Efficiency-Diodes_Shikues-US1MG_C110414.html?s_z=n_diode%20sma%201000v%201A
-15,D_Schottky,SMD:D_SMA LOW DROP,20,https://www.lcsc.com/product-detail/C133102.html?s_z=n_STPS2L30
+1,CONECTOR USB B,USB_C_Receptacle_XKB_U262-16XN-4BVC11,2,https://www.lcsc.com/product-detail/C720549.html?s_z=n_OST%2520USB-B
+2,MODULO FTDI CH340C,SOIC-16_3.9x9.9mm_P1.27mm,3,https://www.lcsc.com/product-detail/C84681.html?s_z=n_CH340C
+4,RESISTOR 1K,HUELLA 0805,50,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0805FR-071KL_C95781.html?s_z=n_resistior%201K%200805
+5,RESISTOR 4.7K,HUELLA 0805,50,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FH-Guangdong-Fenghua-Advanced-Tech-RS-05K472JT_C115310.html?s_z=n_resistior%204.7K%200805
+6,RESISTOR 10K,HUELLA 0805,50,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html?s_z=n_resistior%2010K%200805
+7,CAPACITOR 10uF,HUELLA 0805,50,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samwha-Capacitor-CS2012X7R106M100NRE_C5189822.html?s_z=n_Capacitor%2010uF%200805
+8,CAPACITOR 100nF,HUELLA 0805,50,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0805KRX7R9BB104_C49678.html?s_z=n_Capacitor%20100nF%200805
+9,CAPACITOR 22pF,HUELLA 0805,50,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805COG220J500BT_C376875.html?s_z=n_Capacitor%2022pF%200805
+10,DIODO LED ROJO,HUELLA 0805,50,https://www.lcsc.com/product-detail/LED-Indication-Discrete_XINGLIGHT-XL-2012SURC_C965812.html?s_z=n_LED%20RED%200805
+11,DIODO LED VERDE,HUELLA 0805,50,https://www.lcsc.com/product-detail/LED-Indication-Discrete_TOGIALED-TJ-S2012CY8T5ALC7K-A5_C601703.html?s_z=n_LED%20GREEN%200805
+12,DIODO AMARILLO,HUELLA 0805,50,https://www.lcsc.com/product-detail/LED-Indication-Discrete_HONGLITRONIC-Hongli-Zhihui-HONGLITRONIC-HL-PSC-2012H233W-8000-12000K_C219230.html?s_z=n_YELLOW%20LED%20%200805
+13,DIODO AZUL,HUELLA 0805,50,https://www.lcsc.com/product-detail/LED-Indication-Discrete_TOGIALED-TJ-S2012SW8TGLC6B-A5_C192320.html?s_z=n_LED%20%200805
+14,DIODO PROTECCION RELE,SMD:D_SMA  1000V 1A,4,https://www.lcsc.com/product-detail/Fast-Recovery-High-Efficiency-Diodes_Shikues-US1MG_C110414.html?s_z=n_diode%20sma%201000v%201A
+15,D_Schottky,SMD:D_SMA LOW DROP,4,https://www.lcsc.com/product-detail/C133102.html?s_z=n_STPS2L30
 16,BUZZER,Buzzer_12x9.5RM7.6 - YS-MBZ9055DYB03,1,https://www.lcsc.com/product-detail/C360615.html
 17,RELAY,G5NB-1A-E-DC5V,1,https://www.lcsc.com/product-detail/C5204063.html
 18,TRANSISTOR QNPN,SOT-23-3,1,https://www.lcsc.com/product-detail/C82460.html?s_z=n_MMBT2222A
@@ -26,6 +26,7 @@ N0,COMPONENTE,REFERENCIA,CANT,URL
 26,CONECTOR DOBLE CON CARCASA,SH-JN2.54-2-5P-Z,10,https://www.lcsc.com/product-detail/IDC-Connectors_SHOU-HAN-SH-JN2-54-2-5P-Z_C41417414.html
 27,CONECTOR DOBLE 4P,BX-PZ2.54-2-4PZZ,4,https://www.lcsc.com/product-detail/Pin-Headers_Bossie-BX-PZ2-54-2-4PZZ_C18078213.html?s_z=n_2.54-2-4P
 28,CONECTOR DOBLE 20P,ZX-PZ2.54-2-20PZZ,4,https://www.lcsc.com/product-detail/Pin-Headers_Megastar-ZX-PZ2-54-2-20PZZ_C7501283.html?s_z=n_2.54-2-20P
-29,PULSADOR SMD,PTS636SK25SMTRLFS,10,https://www.lcsc.com/product-detail/Tactile-Switches_C-K-PTS636SK25SMTRLFS_C2689642.html
-30,SELECTRO TIPO SLIDER,JS202011SCQN,10,https://www.lcsc.com/product-detail/Slide-Switches_C-K-JS202011SCQN_C221666.html?s_z=n_JS202011SCQN
+29,PULSADOR SMD,PTS636SK25SMTRLFS,15,https://www.lcsc.com/product-detail/Tactile-Switches_C-K-PTS636SK25SMTRLFS_C2689642.html
+30,SELECTRO TIPO SLIDER,JS202011SCQN,20,https://www.lcsc.com/product-detail/Slide-Switches_C-K-JS202011SCQN_C221666.html?s_z=n_JS202011SCQN
 31,TERMINAL BLOCK 2P ,300V 8A ,2,https://www.lcsc.com/product-detail/Spring-Clamp-System-Terminal-Block_Ningbo-Xinlaiya-Elec-XY118-5-0-2P_C784922.html
+32,Potenciometros SMD,BOURNS TC33X-2-502E,8,https://www.lcsc.com/product-detail/C719177.html
