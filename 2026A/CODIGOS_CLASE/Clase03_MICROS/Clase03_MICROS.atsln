@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MascarasBITS", "MascarasBIT
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "EntradasDigitales01", "EntradasDigitales01\EntradasDigitales01.cproj", "{70AEF034-A6CA-44DB-991A-9D1F433E98BA}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CreacionLibreria7SEG", "CreacionLibreria7SEG\CreacionLibreria7SEG.cproj", "{BFD1B848-AB6C-494B-8845-4BAA01B51C3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -21,6 +23,10 @@ Global
 		{70AEF034-A6CA-44DB-991A-9D1F433E98BA}.Debug|AVR.Build.0 = Debug|AVR
 		{70AEF034-A6CA-44DB-991A-9D1F433E98BA}.Release|AVR.ActiveCfg = Release|AVR
 		{70AEF034-A6CA-44DB-991A-9D1F433E98BA}.Release|AVR.Build.0 = Release|AVR
+		{BFD1B848-AB6C-494B-8845-4BAA01B51C3A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BFD1B848-AB6C-494B-8845-4BAA01B51C3A}.Debug|AVR.Build.0 = Debug|AVR
+		{BFD1B848-AB6C-494B-8845-4BAA01B51C3A}.Release|AVR.ActiveCfg = Release|AVR
+		{BFD1B848-AB6C-494B-8845-4BAA01B51C3A}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
