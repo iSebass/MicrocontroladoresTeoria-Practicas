@@ -1,0 +1,3 @@
+3DX_Same_Sky_Supplier: Same Sky
+3DX_Same_Sky_Description: 20.9 x 10.2 x 15.5 mm, 24 V, 5 A, SPST (1 Form A), Power Relay
+3DX_Same_Sky_Model Number: PR10-24V-450-1A
