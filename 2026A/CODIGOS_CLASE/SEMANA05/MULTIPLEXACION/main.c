@@ -5,11 +5,15 @@
 #include "SEVENSEG/SEVENSEG_LIB.h"
 
 
+int contador =0;
+
 int main(void){
     displayInit();
-	setDisplayCC(5);
+	
     while(1){
-		
+		setDisplayCC(contador);
+		(contador == 9) ? contador=0:contador++;
+		_delay_ms(300);
     }
 }
 
