@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
-    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
+    <ProjectGuid>{f2a83534-efa6-42e3-83bf-72ea2c0b8053}</ProjectGuid>
     <avrdevice>ATmega1284P</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>PrimeraHAL</AssemblyName>
-    <Name>PrimeraHAL</Name>
-    <RootNamespace>PrimeraHAL</RootNamespace>
+    <AssemblyName>HAL_MODULAR</AssemblyName>
+    <Name>HAL_MODULAR</Name>
+    <RootNamespace>HAL_MODULAR</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -122,10 +122,34 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="gpio.h">
+    <Compile Include="hal\adc.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="interrupt.h">
+    <Compile Include="hal\adc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\gpio.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\gpio.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\interrupt.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\interrupt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\timer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\timer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\uart.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal\uart.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
@@ -133,7 +157,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="HAL" />
+    <Folder Include="hal" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
